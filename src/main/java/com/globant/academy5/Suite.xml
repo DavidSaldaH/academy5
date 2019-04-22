@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Academy 5" verbose="1">
+    <parameter name="browser" value="chrome" />
+    <parameter name="dayDepartFly" value="3" />
+    <parameter name="monthDepartFly" value="6" />
+    <parameter name="dayReturnFly" value="15" />
+    <parameter name="monthReturnFly" value="6" />
+    <test name="Home">
+        <classes>
+            <class name="com.globant.academy5.tests.DeleteCustomerTest"></class>
+        </classes>
+    </test>
+</suite>
